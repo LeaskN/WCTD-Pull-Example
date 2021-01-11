@@ -1,0 +1,20 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font: bold 10vw Sans-Serif;
+}
+
+.glow {
+  color: #45CED2;
+  text-shadow: 
+    1px 0px 1px black, 0px 1px 1px #483E8D, 
+    2px 1px 1px black, 1px 2px 1px #F40000,
+    3px 2px 1px black, 2px 3px 1px #F8A400,
+    4px 3px 1px black, 3px 4px 1px #45CED2,
+    5px 4px 1px black, 4px 5px 1px #248000,
+    6px 5px 1px black, 5px 6px 1px #483E8D,
+    7px 6px 1px black;
+}
